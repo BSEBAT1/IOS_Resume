@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		524C84F61C6846890097515A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C84F51C6846890097515A /* main.m */; };
+		524C84F91C6846890097515A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C84F81C6846890097515A /* AppDelegate.m */; };
+		524C84FC1C6846890097515A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C84FB1C6846890097515A /* ViewController.m */; };
+		524C84FF1C6846890097515A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524C84FD1C6846890097515A /* Main.storyboard */; };
+		524C85011C6846890097515A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524C85001C6846890097515A /* Assets.xcassets */; };
+		524C85041C6846890097515A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524C85021C6846890097515A /* LaunchScreen.storyboard */; };
+		524C850F1C6846890097515A /* Berkay_Sebat_ResumeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C850E1C6846890097515A /* Berkay_Sebat_ResumeTests.m */; };
+		524C851A1C6846890097515A /* Berkay_Sebat_ResumeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C85191C6846890097515A /* Berkay_Sebat_ResumeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		524C850B1C6846890097515A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524C84E91C6846890097515A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524C84F01C6846890097515A;
+			remoteInfo = "Berkay Sebat Resume";
+		};
+		524C85161C6846890097515A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524C84E91C6846890097515A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524C84F01C6846890097515A;
+			remoteInfo = "Berkay Sebat Resume";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		524C84F11C6846890097515A /* Berkay Sebat Resume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Berkay Sebat Resume.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524C84F51C6846890097515A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		524C84F71C6846890097515A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		524C84F81C6846890097515A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		524C84FA1C6846890097515A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		524C84FB1C6846890097515A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		524C84FE1C6846890097515A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		524C85001C6846890097515A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524C85031C6846890097515A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		524C85051C6846890097515A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524C850A1C6846890097515A /* Berkay Sebat ResumeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Berkay Sebat ResumeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524C850E1C6846890097515A /* Berkay_Sebat_ResumeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Berkay_Sebat_ResumeTests.m; sourceTree = "<group>"; };
+		524C85101C6846890097515A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524C85151C6846890097515A /* Berkay Sebat ResumeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Berkay Sebat ResumeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524C85191C6846890097515A /* Berkay_Sebat_ResumeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Berkay_Sebat_ResumeUITests.m; sourceTree = "<group>"; };
+		524C851B1C6846890097515A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524C84EE1C6846890097515A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524C85071C6846890097515A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524C85121C6846890097515A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		524C84E81C6846890097515A = {
+			isa = PBXGroup;
+			children = (
+				524C84F31C6846890097515A /* Berkay Sebat Resume */,
+				524C850D1C6846890097515A /* Berkay Sebat ResumeTests */,
+				524C85181C6846890097515A /* Berkay Sebat ResumeUITests */,
+				524C84F21C6846890097515A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		524C84F21C6846890097515A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524C84F11C6846890097515A /* Berkay Sebat Resume.app */,
+				524C850A1C6846890097515A /* Berkay Sebat ResumeTests.xctest */,
+				524C85151C6846890097515A /* Berkay Sebat ResumeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524C84F31C6846890097515A /* Berkay Sebat Resume */ = {
+			isa = PBXGroup;
+			children = (
+				524C84F71C6846890097515A /* AppDelegate.h */,
+				524C84F81C6846890097515A /* AppDelegate.m */,
+				524C84FA1C6846890097515A /* ViewController.h */,
+				524C84FB1C6846890097515A /* ViewController.m */,
+				524C84FD1C6846890097515A /* Main.storyboard */,
+				524C85001C6846890097515A /* Assets.xcassets */,
+				524C85021C6846890097515A /* LaunchScreen.storyboard */,
+				524C85051C6846890097515A /* Info.plist */,
+				524C84F41C6846890097515A /* Supporting Files */,
+			);
+			path = "Berkay Sebat Resume";
+			sourceTree = "<group>";
+		};
+		524C84F41C6846890097515A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				524C84F51C6846890097515A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		524C850D1C6846890097515A /* Berkay Sebat ResumeTests */ = {
+			isa = PBXGroup;
+			children = (
+				524C850E1C6846890097515A /* Berkay_Sebat_ResumeTests.m */,
+				524C85101C6846890097515A /* Info.plist */,
+			);
+			path = "Berkay Sebat ResumeTests";
+			sourceTree = "<group>";
+		};
+		524C85181C6846890097515A /* Berkay Sebat ResumeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				524C85191C6846890097515A /* Berkay_Sebat_ResumeUITests.m */,
+				524C851B1C6846890097515A /* Info.plist */,
+			);
+			path = "Berkay Sebat ResumeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		524C84F01C6846890097515A /* Berkay Sebat Resume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524C851E1C6846890097515A /* Build configuration list for PBXNativeTarget "Berkay Sebat Resume" */;
+			buildPhases = (
+				524C84ED1C6846890097515A /* Sources */,
+				524C84EE1C6846890097515A /* Frameworks */,
+				524C84EF1C6846890097515A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Berkay Sebat Resume";
+			productName = "Berkay Sebat Resume";
+			productReference = 524C84F11C6846890097515A /* Berkay Sebat Resume.app */;
+			productType = "com.apple.product-type.application";
+		};
+		524C85091C6846890097515A /* Berkay Sebat ResumeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524C85211C6846890097515A /* Build configuration list for PBXNativeTarget "Berkay Sebat ResumeTests" */;
+			buildPhases = (
+				524C85061C6846890097515A /* Sources */,
+				524C85071C6846890097515A /* Frameworks */,
+				524C85081C6846890097515A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524C850C1C6846890097515A /* PBXTargetDependency */,
+			);
+			name = "Berkay Sebat ResumeTests";
+			productName = "Berkay Sebat ResumeTests";
+			productReference = 524C850A1C6846890097515A /* Berkay Sebat ResumeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		524C85141C6846890097515A /* Berkay Sebat ResumeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524C85241C6846890097515A /* Build configuration list for PBXNativeTarget "Berkay Sebat ResumeUITests" */;
+			buildPhases = (
+				524C85111C6846890097515A /* Sources */,
+				524C85121C6846890097515A /* Frameworks */,
+				524C85131C6846890097515A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524C85171C6846890097515A /* PBXTargetDependency */,
+			);
+			name = "Berkay Sebat ResumeUITests";
+			productName = "Berkay Sebat ResumeUITests";
+			productReference = 524C85151C6846890097515A /* Berkay Sebat ResumeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524C84E91C6846890097515A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = berkaysebat.com;
+				TargetAttributes = {
+					524C84F01C6846890097515A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					524C85091C6846890097515A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 524C84F01C6846890097515A;
+					};
+					524C85141C6846890097515A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 524C84F01C6846890097515A;
+					};
+				};
+			};
+			buildConfigurationList = 524C84EC1C6846890097515A /* Build configuration list for PBXProject "Berkay Sebat Resume" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 524C84E81C6846890097515A;
+			productRefGroup = 524C84F21C6846890097515A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524C84F01C6846890097515A /* Berkay Sebat Resume */,
+				524C85091C6846890097515A /* Berkay Sebat ResumeTests */,
+				524C85141C6846890097515A /* Berkay Sebat ResumeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		524C84EF1C6846890097515A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524C85041C6846890097515A /* LaunchScreen.storyboard in Resources */,
+				524C85011C6846890097515A /* Assets.xcassets in Resources */,
+				524C84FF1C6846890097515A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524C85081C6846890097515A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524C85131C6846890097515A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524C84ED1C6846890097515A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524C84FC1C6846890097515A /* ViewController.m in Sources */,
+				524C84F91C6846890097515A /* AppDelegate.m in Sources */,
+				524C84F61C6846890097515A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524C85061C6846890097515A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524C850F1C6846890097515A /* Berkay_Sebat_ResumeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524C85111C6846890097515A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524C851A1C6846890097515A /* Berkay_Sebat_ResumeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		524C850C1C6846890097515A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524C84F01C6846890097515A /* Berkay Sebat Resume */;
+			targetProxy = 524C850B1C6846890097515A /* PBXContainerItemProxy */;
+		};
+		524C85171C6846890097515A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524C84F01C6846890097515A /* Berkay Sebat Resume */;
+			targetProxy = 524C85161C6846890097515A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		524C84FD1C6846890097515A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524C84FE1C6846890097515A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		524C85021C6846890097515A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524C85031C6846890097515A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		524C851C1C6846890097515A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		524C851D1C6846890097515A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		524C851F1C6846890097515A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Berkay Sebat Resume/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sebat-Tech-LLC.Berkay-Sebat-Resume";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		524C85201C6846890097515A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Berkay Sebat Resume/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sebat-Tech-LLC.Berkay-Sebat-Resume";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		524C85221C6846890097515A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Berkay Sebat ResumeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sebat-Tech-LLC.Berkay-Sebat-ResumeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berkay Sebat Resume.app/Berkay Sebat Resume";
+			};
+			name = Debug;
+		};
+		524C85231C6846890097515A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Berkay Sebat ResumeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sebat-Tech-LLC.Berkay-Sebat-ResumeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berkay Sebat Resume.app/Berkay Sebat Resume";
+			};
+			name = Release;
+		};
+		524C85251C6846890097515A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Berkay Sebat ResumeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sebat-Tech-LLC.Berkay-Sebat-ResumeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Berkay Sebat Resume";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		524C85261C6846890097515A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Berkay Sebat ResumeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sebat-Tech-LLC.Berkay-Sebat-ResumeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Berkay Sebat Resume";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		524C84EC1C6846890097515A /* Build configuration list for PBXProject "Berkay Sebat Resume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524C851C1C6846890097515A /* Debug */,
+				524C851D1C6846890097515A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524C851E1C6846890097515A /* Build configuration list for PBXNativeTarget "Berkay Sebat Resume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524C851F1C6846890097515A /* Debug */,
+				524C85201C6846890097515A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		524C85211C6846890097515A /* Build configuration list for PBXNativeTarget "Berkay Sebat ResumeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524C85221C6846890097515A /* Debug */,
+				524C85231C6846890097515A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		524C85241C6846890097515A /* Build configuration list for PBXNativeTarget "Berkay Sebat ResumeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524C85251C6846890097515A /* Debug */,
+				524C85261C6846890097515A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524C84E91C6846890097515A /* Project object */;
+}
