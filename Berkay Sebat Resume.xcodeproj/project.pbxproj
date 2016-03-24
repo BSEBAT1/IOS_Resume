@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5208629D1C7216CD005C4A60 /* GuestbookWallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5208629C1C7216CD005C4A60 /* GuestbookWallController.m */; };
+		5208629F1C723913005C4A60 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5208629E1C723913005C4A60 /* Main2.storyboard */; };
 		524C84F61C6846890097515A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C84F51C6846890097515A /* main.m */; };
 		524C84F91C6846890097515A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C84F81C6846890097515A /* AppDelegate.m */; };
-		524C84FC1C6846890097515A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C84FB1C6846890097515A /* ViewController.m */; };
-		524C84FF1C6846890097515A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524C84FD1C6846890097515A /* Main.storyboard */; };
 		524C85011C6846890097515A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524C85001C6846890097515A /* Assets.xcassets */; };
 		524C85041C6846890097515A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524C85021C6846890097515A /* LaunchScreen.storyboard */; };
 		524C850F1C6846890097515A /* Berkay_Sebat_ResumeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C850E1C6846890097515A /* Berkay_Sebat_ResumeTests.m */; };
 		524C851A1C6846890097515A /* Berkay_Sebat_ResumeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C85191C6846890097515A /* Berkay_Sebat_ResumeUITests.m */; };
+		524C85291C6846A30097515A /* Projects.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C85281C6846A30097515A /* Projects.m */; };
+		524C852C1C684CFE0097515A /* ProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C852B1C684CFE0097515A /* ProjectsViewController.m */; };
+		524C852F1C684D420097515A /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524C852E1C684D420097515A /* DetailsViewController.m */; };
+		525C68A21C710F4F00878A3F /* Guestbook.m in Sources */ = {isa = PBXBuildFile; fileRef = 525C68A11C710F4F00878A3F /* Guestbook.m */; };
+		525E7F111C72A95000B18605 /* PostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 525E7F101C72A95000B18605 /* PostView.m */; };
+		52A2BDB61C76B2F80044816B /* PostDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A2BDB51C76B2F80044816B /* PostDetailController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5208629B1C7216CD005C4A60 /* GuestbookWallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestbookWallController.h; sourceTree = "<group>"; };
+		5208629C1C7216CD005C4A60 /* GuestbookWallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestbookWallController.m; sourceTree = "<group>"; };
+		5208629E1C723913005C4A60 /* Main2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
 		524C84F11C6846890097515A /* Berkay Sebat Resume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Berkay Sebat Resume.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		524C84F51C6846890097515A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		524C84F71C6846890097515A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		524C84F81C6846890097515A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		524C84FA1C6846890097515A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		524C84FB1C6846890097515A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		524C84FE1C6846890097515A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		524C85001C6846890097515A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524C85031C6846890097515A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		524C85051C6846890097515A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +57,18 @@
 		524C85151C6846890097515A /* Berkay Sebat ResumeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Berkay Sebat ResumeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		524C85191C6846890097515A /* Berkay_Sebat_ResumeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Berkay_Sebat_ResumeUITests.m; sourceTree = "<group>"; };
 		524C851B1C6846890097515A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524C85271C6846A30097515A /* Projects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projects.h; sourceTree = "<group>"; };
+		524C85281C6846A30097515A /* Projects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Projects.m; sourceTree = "<group>"; };
+		524C852A1C684CFE0097515A /* ProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectsViewController.h; sourceTree = "<group>"; };
+		524C852B1C684CFE0097515A /* ProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectsViewController.m; sourceTree = "<group>"; };
+		524C852D1C684D420097515A /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		524C852E1C684D420097515A /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		525C68A01C710F4F00878A3F /* Guestbook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guestbook.h; sourceTree = "<group>"; };
+		525C68A11C710F4F00878A3F /* Guestbook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guestbook.m; sourceTree = "<group>"; };
+		525E7F0F1C72A95000B18605 /* PostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostView.h; path = ../PostView.h; sourceTree = "<group>"; };
+		525E7F101C72A95000B18605 /* PostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostView.m; path = ../PostView.m; sourceTree = "<group>"; };
+		52A2BDB41C76B2F80044816B /* PostDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostDetailController.h; path = ../PostDetailController.h; sourceTree = "<group>"; };
+		52A2BDB51C76B2F80044816B /* PostDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostDetailController.m; path = ../PostDetailController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,9 @@
 		524C84E81C6846890097515A = {
 			isa = PBXGroup;
 			children = (
+				5208629E1C723913005C4A60 /* Main2.storyboard */,
+				524C85271C6846A30097515A /* Projects.h */,
+				524C85281C6846A30097515A /* Projects.m */,
 				524C84F31C6846890097515A /* Berkay Sebat Resume */,
 				524C850D1C6846890097515A /* Berkay Sebat ResumeTests */,
 				524C85181C6846890097515A /* Berkay Sebat ResumeUITests */,
@@ -101,11 +122,20 @@
 		524C84F31C6846890097515A /* Berkay Sebat Resume */ = {
 			isa = PBXGroup;
 			children = (
+				52A2BDB41C76B2F80044816B /* PostDetailController.h */,
+				52A2BDB51C76B2F80044816B /* PostDetailController.m */,
+				525E7F0F1C72A95000B18605 /* PostView.h */,
+				525E7F101C72A95000B18605 /* PostView.m */,
 				524C84F71C6846890097515A /* AppDelegate.h */,
 				524C84F81C6846890097515A /* AppDelegate.m */,
-				524C84FA1C6846890097515A /* ViewController.h */,
-				524C84FB1C6846890097515A /* ViewController.m */,
-				524C84FD1C6846890097515A /* Main.storyboard */,
+				5208629B1C7216CD005C4A60 /* GuestbookWallController.h */,
+				5208629C1C7216CD005C4A60 /* GuestbookWallController.m */,
+				524C852D1C684D420097515A /* DetailsViewController.h */,
+				524C852E1C684D420097515A /* DetailsViewController.m */,
+				524C852A1C684CFE0097515A /* ProjectsViewController.h */,
+				524C852B1C684CFE0097515A /* ProjectsViewController.m */,
+				525C68A01C710F4F00878A3F /* Guestbook.h */,
+				525C68A11C710F4F00878A3F /* Guestbook.m */,
 				524C85001C6846890097515A /* Assets.xcassets */,
 				524C85021C6846890097515A /* LaunchScreen.storyboard */,
 				524C85051C6846890097515A /* Info.plist */,
@@ -244,8 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				524C85041C6846890097515A /* LaunchScreen.storyboard in Resources */,
+				5208629F1C723913005C4A60 /* Main2.storyboard in Resources */,
 				524C85011C6846890097515A /* Assets.xcassets in Resources */,
-				524C84FF1C6846890097515A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524C84FC1C6846890097515A /* ViewController.m in Sources */,
+				524C852C1C684CFE0097515A /* ProjectsViewController.m in Sources */,
+				524C852F1C684D420097515A /* DetailsViewController.m in Sources */,
 				524C84F91C6846890097515A /* AppDelegate.m in Sources */,
+				52A2BDB61C76B2F80044816B /* PostDetailController.m in Sources */,
+				5208629D1C7216CD005C4A60 /* GuestbookWallController.m in Sources */,
 				524C84F61C6846890097515A /* main.m in Sources */,
+				524C85291C6846A30097515A /* Projects.m in Sources */,
+				525E7F111C72A95000B18605 /* PostView.m in Sources */,
+				525C68A21C710F4F00878A3F /* Guestbook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		524C84FD1C6846890097515A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				524C84FE1C6846890097515A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		524C85021C6846890097515A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -496,6 +524,7 @@
 				524C85201C6846890097515A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524C85211C6846890097515A /* Build configuration list for PBXNativeTarget "Berkay Sebat ResumeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +533,7 @@
 				524C85231C6846890097515A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524C85241C6846890097515A /* Build configuration list for PBXNativeTarget "Berkay Sebat ResumeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +542,7 @@
 				524C85261C6846890097515A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
